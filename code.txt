@@ -1,19 +1,19 @@
 #include <stdio.h>    //header file
 
-int main() {          
+int main() {         // main function 
 
 int n, i, j, num = 1;
 
-    printf("Enter the number of rows: ");
+    printf("Enter the number of rows: ");   // inputs
     scanf("%d", &n);
 
-    for (i = 1; i <= n; i++) {
+    for (i = 1; i <= n; i++) {               // loop
         for (j = 1; j <= i; j++) {
             printf("%d ", num);
             num++;
         }
-        printf("\n");
+        printf("\n");                   
     }
 
-    return 0;
-}
+    return 0;                              // return statement
+}                                       // end main 
