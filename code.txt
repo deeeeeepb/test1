@@ -1,7 +1,8 @@
-#include <stdio.h>
+#include <stdio.h>    //header file
 
-int main() {
-    int n, i, j, num = 1;
+int main() {          
+
+int n, i, j, num = 1;
 
     printf("Enter the number of rows: ");
     scanf("%d", &n);
